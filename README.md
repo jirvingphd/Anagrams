@@ -1,3 +1,8 @@
+**Course**: Data Science   <br/>
+**Mod**:    1                 <br/>
+**Topic**:   Anagrams: Functions, strings, iteration, lists and or dictionaries <br/>
+**Amount of time**: 45 minutes - 1 hour <br/>
+**Author**: Matthew Mitchell matt.mitchell@flatironschool.com
 
 ## Teacher Notes
 
