@@ -9,6 +9,7 @@
 ## Introduction
 
 This problem only requires basic python programming knowledge but stands to be a moderately difficult problem solving exercise.
+In an in person classroom, I recommend allocating 15-25 minutes for students to work on the problem, followed by 30 plus minutes for discussion. In an online or flipped classroom, student work time should be front loaded and then the entire classroom meeting time can be dedicated to reviewing student solutions. Start by asking students for their approaches, review places where students got stuck and have students articulate what their code does. Address any potential misconceptions that arise and check for student understanding by asking questions to other students regarding a specific code snippet that is presented. Then ask for alternative solutions (2 potential solutions are provided below.)
 
 ## Learning Goals
 
@@ -76,6 +77,8 @@ def anagram2(s1, s2):
     
 ```
 
-## Teacher Notes
+## Further Teacher Notes
 
-Work through student solutions first. If students are unable to generate solutions independently, prompt them with follow up questions such as, how could we start checking letter by letter if the two matched? Once code is generated, be sure to have students go through the code line by line and explain verbally what is happening. Also be sure to explore edge cases which are important to consider. For example, "aabc" and "cba" are not anagrams because a occurs twice in the first string but only once in the second. 
+Work through student solutions first. If students are unable to generate solutions independently, prompt them with follow up questions such as, how could we start checking letter by letter if the two matched? (This is apt to lead to a iterating over the strings similar to solution 2.) Alternatively, if you reference a "bag of letters" approach, you are more apt to produce solutions similar to the first solution above involving dictionaries and counts of letters. 
+
+Once code is generated, be sure to have students go through the code line by line and explain verbally what is happening. Also be sure to explore edge cases which are important to consider. For example, "aabc" and "cba" are not anagrams because a occurs twice in the first string but only once in the second. 
